@@ -1,0 +1,8 @@
+syntax: glob
+Library/*
+Logs/*
+Temp/*
+*.sln
+.vs/*
+obj/*
+*.csproj
