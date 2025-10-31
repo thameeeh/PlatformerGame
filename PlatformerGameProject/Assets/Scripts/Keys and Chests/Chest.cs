@@ -5,7 +5,6 @@ public class Chest : MonoBehaviour
     [SerializeField] private string _requiredKeyId = "first_key";
     [SerializeField] private bool _openOnTouch = true;
     [SerializeField] private Animator _animator;
-    [SerializeField] private GameObject _lootToSpawn;
 
     private bool _isOpen;
 
