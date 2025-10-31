@@ -14,10 +14,7 @@ public class LevelRestarter : MonoBehaviour
 
     public void Restart()
     {
-        if (resetTimeScale) Time.timeScale = 1f;   // in case you paused the game
-
-        // e.g. RuntimeGameDataManager.instance.ResetForLevel();
-
+        if (resetTimeScale) Time.timeScale = 1f;
         var scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.buildIndex);
     }
